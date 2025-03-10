@@ -1,0 +1,76 @@
+.left-links {
+    font-size: 0.75rem !important;
+}
+
+#navbarSupportedContent{
+    text-align: center;
+}
+
+ 
+@media screen and (min-width: 992px) and (max-width: 1021px) {
+    .navbar div.d-flex {
+        order: 3; /* Sağdaki ikonları 3. sıraya al */
+    }
+
+    .container-fluid button {
+        order: 2; /* Menü açma butonunu 2. sıraya al */
+    }
+
+    #navbarSupportedContent {
+        order: 1; /* Menü içeriğini 1. sıraya al */
+        width: 100%; /* Ortalamaya yardımcı olması için genişliği 100% yap */
+        text-align: center; /* İçeriği ortaya hizala */
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+
+    .container-fluid button {
+        order: 3;
+    }
+
+    #navbarSupportedContent{
+        order: 4;
+    } 
+
+    .navbar div.d-flex{
+        order: 2;
+        width: fit-content !important;
+        gap: 7.6vw !important;
+    }
+
+    .container-fluid{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 601px)  {
+
+    .navbar div.d-flex{
+        width: 100% !important;
+        order: 3;
+        gap: 7vw !important;
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+    
+    .container-fluid button {
+        flex-grow: 1;
+    }
+    
+    #navbarSupportedContent{
+        order: 4;
+    }
+    
+    .container-fluid{
+        padding: 0vw 5vw !important; /* Ekran genişliğinin %5'i kadar padding */
+        margin: 0vh 2vh !important;  /* Ekran yüksekliğinin %2'si kadar margin */
+        align-items: center;
+    }
+
+}
+

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="MDB5-STANDARD-UI-KIT-Free-8.2.0/css/mdb.min.css"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+
+    <link rel="stylesheet" href="./css/homepage_css/homepage.css">
+    <link rel="stylesheet" href="./css/partials_css/navbar.css">
+    <link rel="stylesheet" href="./css/smallanimations/animations.css">
+    
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-body-dark bg-dark pt-4 pb-4">
+        <!-- Container wrapper -->
+        <div class="container-fluid justify-content-between px-5 mx-5">
+          <!-- Toggle button -->
+          <button
+            data-mdb-collapse-init
+            class="navbar-toggler order-3"
+            type="button"
+            data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+      
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse justify-content-evenly" id="navbarSupportedContent">
+            <!-- Navbar brand -->
+            <a class="navbar-brand mt-2 mt-lg-0 justify-content-center" href="#">
+              <img
+                src="../pictures-icons/pictures/logo.png"
+                height="15"
+                alt="MDB Logo"
+                loading="lazy"
+              />
+            </a>
+            <!-- Left links -->
+             <div class="left-links "><!-- Burdan halledicez -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between">
+                <li class="nav-item ps-4">
+                  <a class="nav-link mt-1" href="#">Ana Sayfa</a>
+                </li>
+                <li class="nav-item ps-4">
+                  <a class="nav-link mt-1" href="#">Kurslarım</a>
+                </li>
+                <li class="nav-item ps-4">
+                  <a class="nav-link mt-1" href="#">Notlarım</a>
+                </li>
+                <li class="nav-item ps-4">
+                  <a class="nav-link mt-1" href="#">Takvim</a>
+                </li>
+                <li class="nav-item ps-4">
+                  <a class="nav-link mt-1" href="#">Sertifika ve Rozet</a>
+                </li>
+                <li class="nav-item ps-4">
+                  <a class="nav-link mt-1" href="#">Yetkinlik</a>
+                </li>
+                <li class="nav-item ps-4">
+                  <a class="nav-link mt-1" href="#">Öğrenme Patikası</a>
+                </li>
+              </ul>
+
+             </div>
+            
+            <!-- Left links -->
+          </div>
+          <!-- Collapsible wrapper -->
+      
+          <!-- Right elements -->
+          <div class="d-flex align-items-center justify-content-center w-25 gap-4">
+            <!-- Icon -->
+              <div class="search-box">
+                <button class="btn-search"><i class="fas fa-search " style="color: #FFFFFF8C;"></i></button>
+                <input type="text" class="input-search" placeholder="Type to Search...">
+              </div>  
+      
+            <!-- Notifications -->
+            <div class="dropdown">
+              <a
+                data-mdb-dropdown-init
+                class="link-secondary dropdown-toggle hidden-arrow"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                aria-expanded="false"
+              >
+                <i class="fas fa-bell"></i>
+                <span class="badge rounded-pill badge-notification bg-danger">1</span>
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">Some news</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another news</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Language -->
+            <ul class="navbar-nav">
+              <!-- Icon dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  data-mdb-dropdown-init
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  aria-expanded="false"
+                >
+                  <i class="flag-united-kingdom flag m-0"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="flag-united-kingdom flag"></i>English
+                      <i class="fa fa-check text-success ms-2"></i
+                    ></a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-poland flag"></i>Polski</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-china flag"></i>中文</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-japan flag"></i>日本語</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-germany flag"></i>Deutsch</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-france flag"></i>Français</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-spain flag"></i>Español</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-russia flag"></i>Русский</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"><i class="flag-portugal flag"></i>Português</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <!-- Avatar -->
+            <div class="dropdown">
+              <a
+                data-mdb-dropdown-init
+                class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                href="#"
+                id="navbarDropdownMenuAvatar"
+                role="button"
+                aria-expanded="false"
+              >
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                  class="rounded-circle"
+                  height="25"
+                  alt="Black and White Portrait of a Man"
+                  loading="lazy"
+                />
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="navbarDropdownMenuAvatar"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">My profile</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Settings</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Logout</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+         
+        </div>
+        
+            
+
+            
+          
+          
+        </div>  
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+
+
+    <div class="dashboard">
+
+        <div class="card">
+            <div class="card-head">
+                <h2 id="user-name">Burhan Günay</h2>
+                <a href="" class="cards-link">Profile Git
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+            </div>  
+            <div class="card-imgcontainer user-img-container">
+                <img src="https://cdn3.pixelcut.app/7/20/uncrop_hero_bdf08a8ca6.jpg" alt="Kullanıcı Resmi" class="user-img"> 
+            </div> 
+        </div>
+
+        <div class="card">
+            
+            <div class="card-head">
+                <h2>Kurslarım</h2>
+                <a href="" class="cards-link">Kurslara Git
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a> 
+            </div>
+
+            <div class="courses dashboard">
+
+                <div class="course gray">
+                  <a href="#" class="coursecard-link">
+                    <div class="course-icon">                   
+                        <svg fill="#000000" width="20px" height="20px" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 27.9999 51.9063 C 41.0546 51.9063 51.9063 41.0781 51.9063 28 C 51.9063 14.9453 41.0312 4.0937 27.9765 4.0937 C 14.8983 4.0937 4.0937 14.9453 4.0937 28 C 4.0937 41.0781 14.9218 51.9063 27.9999 51.9063 Z M 27.9999 47.9219 C 16.9374 47.9219 8.1014 39.0625 8.1014 28 C 8.1014 16.9609 16.9140 8.0781 27.9765 8.0781 C 39.0155 8.0781 47.8983 16.9609 47.9219 28 C 47.9454 39.0625 39.0390 47.9219 27.9999 47.9219 Z M 21.9296 37.1406 C 24.0858 37.1406 25.3983 37.9844 26.0780 38.4063 C 26.2890 38.5234 26.9218 38.8984 27.0390 38.9219 L 27.0390 19.5390 C 26.1952 17.9219 23.9687 16.7266 21.3202 16.7266 C 18.3436 16.7266 15.6483 18.1094 14.8046 19.8203 L 14.8046 37.9375 C 14.8046 38.7812 15.2968 39.0859 15.9062 39.0859 C 16.3983 39.0859 16.7030 38.9219 17.0077 38.6875 C 17.7812 37.9844 19.5390 37.1406 21.9296 37.1406 Z M 34.0468 37.1406 C 36.4140 37.1406 38.1952 37.9844 38.9687 38.6875 C 39.2499 38.9219 39.5780 39.0859 40.0702 39.0859 C 40.6796 39.0859 41.1483 38.7812 41.1483 37.9375 L 41.1483 19.8203 C 40.3046 18.1094 37.6093 16.7266 34.6327 16.7266 C 32.0312 16.7266 29.8046 17.9219 28.9374 19.5390 L 28.9374 38.9688 C 29.1014 38.9453 29.6640 38.5469 29.8983 38.4063 C 30.5546 37.9609 31.8905 37.1406 34.0468 37.1406 Z"></path></g></svg>
+                    </div>                               
+                    <div class="course-text">Protokol Kursu</div>
+                  </a>
+                </div>
+
+                <div class="course green">
+                  <a href="#" class="coursecard-link">
+                    <div class="course-icon">                   
+                        <svg fill="#000000" width="20px" height="20px" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 27.9999 51.9063 C 41.0546 51.9063 51.9063 41.0781 51.9063 28 C 51.9063 14.9453 41.0312 4.0937 27.9765 4.0937 C 14.8983 4.0937 4.0937 14.9453 4.0937 28 C 4.0937 41.0781 14.9218 51.9063 27.9999 51.9063 Z M 27.9999 47.9219 C 16.9374 47.9219 8.1014 39.0625 8.1014 28 C 8.1014 16.9609 16.9140 8.0781 27.9765 8.0781 C 39.0155 8.0781 47.8983 16.9609 47.9219 28 C 47.9454 39.0625 39.0390 47.9219 27.9999 47.9219 Z M 21.9296 37.1406 C 24.0858 37.1406 25.3983 37.9844 26.0780 38.4063 C 26.2890 38.5234 26.9218 38.8984 27.0390 38.9219 L 27.0390 19.5390 C 26.1952 17.9219 23.9687 16.7266 21.3202 16.7266 C 18.3436 16.7266 15.6483 18.1094 14.8046 19.8203 L 14.8046 37.9375 C 14.8046 38.7812 15.2968 39.0859 15.9062 39.0859 C 16.3983 39.0859 16.7030 38.9219 17.0077 38.6875 C 17.7812 37.9844 19.5390 37.1406 21.9296 37.1406 Z M 34.0468 37.1406 C 36.4140 37.1406 38.1952 37.9844 38.9687 38.6875 C 39.2499 38.9219 39.5780 39.0859 40.0702 39.0859 C 40.6796 39.0859 41.1483 38.7812 41.1483 37.9375 L 41.1483 19.8203 C 40.3046 18.1094 37.6093 16.7266 34.6327 16.7266 C 32.0312 16.7266 29.8046 17.9219 28.9374 19.5390 L 28.9374 38.9688 C 29.1014 38.9453 29.6640 38.5469 29.8983 38.4063 C 30.5546 37.9609 31.8905 37.1406 34.0468 37.1406 Z"></path></g></svg>
+                    </div>                               
+                    <div class="course-text">Excel 365 Kursu</div>
+                  </a>
+                </div>
+
+                <div class="course lightgreen">
+                  <a href="#" class="coursecard-link">
+                    <div class="course-icon">                   
+                        <svg fill="#000000" width="20px" height="20px" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 27.9999 51.9063 C 41.0546 51.9063 51.9063 41.0781 51.9063 28 C 51.9063 14.9453 41.0312 4.0937 27.9765 4.0937 C 14.8983 4.0937 4.0937 14.9453 4.0937 28 C 4.0937 41.0781 14.9218 51.9063 27.9999 51.9063 Z M 27.9999 47.9219 C 16.9374 47.9219 8.1014 39.0625 8.1014 28 C 8.1014 16.9609 16.9140 8.0781 27.9765 8.0781 C 39.0155 8.0781 47.8983 16.9609 47.9219 28 C 47.9454 39.0625 39.0390 47.9219 27.9999 47.9219 Z M 21.9296 37.1406 C 24.0858 37.1406 25.3983 37.9844 26.0780 38.4063 C 26.2890 38.5234 26.9218 38.8984 27.0390 38.9219 L 27.0390 19.5390 C 26.1952 17.9219 23.9687 16.7266 21.3202 16.7266 C 18.3436 16.7266 15.6483 18.1094 14.8046 19.8203 L 14.8046 37.9375 C 14.8046 38.7812 15.2968 39.0859 15.9062 39.0859 C 16.3983 39.0859 16.7030 38.9219 17.0077 38.6875 C 17.7812 37.9844 19.5390 37.1406 21.9296 37.1406 Z M 34.0468 37.1406 C 36.4140 37.1406 38.1952 37.9844 38.9687 38.6875 C 39.2499 38.9219 39.5780 39.0859 40.0702 39.0859 C 40.6796 39.0859 41.1483 38.7812 41.1483 37.9375 L 41.1483 19.8203 C 40.3046 18.1094 37.6093 16.7266 34.6327 16.7266 C 32.0312 16.7266 29.8046 17.9219 28.9374 19.5390 L 28.9374 38.9688 C 29.1014 38.9453 29.6640 38.5469 29.8983 38.4063 C 30.5546 37.9609 31.8905 37.1406 34.0468 37.1406 Z"></path></g></svg>
+                    </div>           
+                    <div class="course-text">eXeLearning Kursu</div>
+                  </a>
+                </div>
+
+                <div class="course orange">
+                  <a href="#" class="coursecard-link">
+                    <div class="course-icon">                   
+                        <svg fill="#000000" width="20px" height="20px" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 27.9999 51.9063 C 41.0546 51.9063 51.9063 41.0781 51.9063 28 C 51.9063 14.9453 41.0312 4.0937 27.9765 4.0937 C 14.8983 4.0937 4.0937 14.9453 4.0937 28 C 4.0937 41.0781 14.9218 51.9063 27.9999 51.9063 Z M 27.9999 47.9219 C 16.9374 47.9219 8.1014 39.0625 8.1014 28 C 8.1014 16.9609 16.9140 8.0781 27.9765 8.0781 C 39.0155 8.0781 47.8983 16.9609 47.9219 28 C 47.9454 39.0625 39.0390 47.9219 27.9999 47.9219 Z M 21.9296 37.1406 C 24.0858 37.1406 25.3983 37.9844 26.0780 38.4063 C 26.2890 38.5234 26.9218 38.8984 27.0390 38.9219 L 27.0390 19.5390 C 26.1952 17.9219 23.9687 16.7266 21.3202 16.7266 C 18.3436 16.7266 15.6483 18.1094 14.8046 19.8203 L 14.8046 37.9375 C 14.8046 38.7812 15.2968 39.0859 15.9062 39.0859 C 16.3983 39.0859 16.7030 38.9219 17.0077 38.6875 C 17.7812 37.9844 19.5390 37.1406 21.9296 37.1406 Z M 34.0468 37.1406 C 36.4140 37.1406 38.1952 37.9844 38.9687 38.6875 C 39.2499 38.9219 39.5780 39.0859 40.0702 39.0859 C 40.6796 39.0859 41.1483 38.7812 41.1483 37.9375 L 41.1483 19.8203 C 40.3046 18.1094 37.6093 16.7266 34.6327 16.7266 C 32.0312 16.7266 29.8046 17.9219 28.9374 19.5390 L 28.9374 38.9688 C 29.1014 38.9453 29.6640 38.5469 29.8983 38.4063 C 30.5546 37.9609 31.8905 37.1406 34.0468 37.1406 Z"></path></g></svg>
+                    </div>                    
+                    <div class="course-text">Moodle Kursu</div>
+                  </a>
+                </div>
+
+                <div class="course blue">
+                  <a href="#" class="coursecard-link">
+                    <div class="course-icon">                   
+                        <svg fill="#000000" width="20px" height="20px" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 27.9999 51.9063 C 41.0546 51.9063 51.9063 41.0781 51.9063 28 C 51.9063 14.9453 41.0312 4.0937 27.9765 4.0937 C 14.8983 4.0937 4.0937 14.9453 4.0937 28 C 4.0937 41.0781 14.9218 51.9063 27.9999 51.9063 Z M 27.9999 47.9219 C 16.9374 47.9219 8.1014 39.0625 8.1014 28 C 8.1014 16.9609 16.9140 8.0781 27.9765 8.0781 C 39.0155 8.0781 47.8983 16.9609 47.9219 28 C 47.9454 39.0625 39.0390 47.9219 27.9999 47.9219 Z M 21.9296 37.1406 C 24.0858 37.1406 25.3983 37.9844 26.0780 38.4063 C 26.2890 38.5234 26.9218 38.8984 27.0390 38.9219 L 27.0390 19.5390 C 26.1952 17.9219 23.9687 16.7266 21.3202 16.7266 C 18.3436 16.7266 15.6483 18.1094 14.8046 19.8203 L 14.8046 37.9375 C 14.8046 38.7812 15.2968 39.0859 15.9062 39.0859 C 16.3983 39.0859 16.7030 38.9219 17.0077 38.6875 C 17.7812 37.9844 19.5390 37.1406 21.9296 37.1406 Z M 34.0468 37.1406 C 36.4140 37.1406 38.1952 37.9844 38.9687 38.6875 C 39.2499 38.9219 39.5780 39.0859 40.0702 39.0859 C 40.6796 39.0859 41.1483 38.7812 41.1483 37.9375 L 41.1483 19.8203 C 40.3046 18.1094 37.6093 16.7266 34.6327 16.7266 C 32.0312 16.7266 29.8046 17.9219 28.9374 19.5390 L 28.9374 38.9688 C 29.1014 38.9453 29.6640 38.5469 29.8983 38.4063 C 30.5546 37.9609 31.8905 37.1406 34.0468 37.1406 Z"></path></g></svg>
+                    </div>                    
+                    <div class="course-text">H5P Kursu</div>
+                  </a>
+                </div>
+
+                <div class="course red">
+                  <a href="#" class="coursecard-link">
+                    <div class="course-icon">                   
+                         <svg fill="#000000" width="20px" height="20px" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 27.9999 51.9063 C 41.0546 51.9063 51.9063 41.0781 51.9063 28 C 51.9063 14.9453 41.0312 4.0937 27.9765 4.0937 C 14.8983 4.0937 4.0937 14.9453 4.0937 28 C 4.0937 41.0781 14.9218 51.9063 27.9999 51.9063 Z M 27.9999 47.9219 C 16.9374 47.9219 8.1014 39.0625 8.1014 28 C 8.1014 16.9609 16.9140 8.0781 27.9765 8.0781 C 39.0155 8.0781 47.8983 16.9609 47.9219 28 C 47.9454 39.0625 39.0390 47.9219 27.9999 47.9219 Z M 21.9296 37.1406 C 24.0858 37.1406 25.3983 37.9844 26.0780 38.4063 C 26.2890 38.5234 26.9218 38.8984 27.0390 38.9219 L 27.0390 19.5390 C 26.1952 17.9219 23.9687 16.7266 21.3202 16.7266 C 18.3436 16.7266 15.6483 18.1094 14.8046 19.8203 L 14.8046 37.9375 C 14.8046 38.7812 15.2968 39.0859 15.9062 39.0859 C 16.3983 39.0859 16.7030 38.9219 17.0077 38.6875 C 17.7812 37.9844 19.5390 37.1406 21.9296 37.1406 Z M 34.0468 37.1406 C 36.4140 37.1406 38.1952 37.9844 38.9687 38.6875 C 39.2499 38.9219 39.5780 39.0859 40.0702 39.0859 C 40.6796 39.0859 41.1483 38.7812 41.1483 37.9375 L 41.1483 19.8203 C 40.3046 18.1094 37.6093 16.7266 34.6327 16.7266 C 32.0312 16.7266 29.8046 17.9219 28.9374 19.5390 L 28.9374 38.9688 C 29.1014 38.9453 29.6640 38.5469 29.8983 38.4063 C 30.5546 37.9609 31.8905 37.1406 34.0468 37.1406 Z"></path></g></svg>
+                    </div>
+                    <div class="course-text">CC Kursu</div>
+                  </a>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="card">
+            <div class="card-head">
+                <h2>Notlarım</h2>
+                <a href="" class="cards-link">Notlarıma Git
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+            </div>
+
+          
+            <div class="simple-bar-chart">
+            
+            <div class="item" style="--clr: #5EB344; --val: 80">
+                <div class="label">Label 1</div>
+                <div class="value">80%</div>
+            </div>
+            
+            <div class="item" style="--clr: #FCB72A; --val: 50">
+                <div class="label">Label 2</div>
+                <div class="value">50%</div>
+            </div>
+            
+            <div class="item" style="--clr: #F8821A; --val: 100">
+                <div class="label">Label 3</div>
+                <div class="value">100%</div>
+            </div>
+            
+            <div class="item" style="--clr: #E0393E; --val: 15">
+                <div class="label">Label 4</div>
+                <div class="value">15%</div>
+            </div>
+            
+            <div class="item" style="--clr: #963D97; --val: 1">
+                <div class="label">Label 5</div>
+                <div class="value">1%</div>
+            </div>
+            
+            <div class="item" style="--clr: #069CDB; --val: 90">
+                <div class="label">Label 6</div>
+                <div class="value">90%</div>
+            </div>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="card-head">
+                <h2>Takvim</h2>
+                <a href="" class="cards-link">Takvime Git
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card-imgcontainer">
+                <img src="../pictures-icons/pictures/Calendar.png" alt="calendar-example">     
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-head">
+                <h2>Sertifika ve Rozet</h2>
+                <a href="" class="cards-link">Sertifikaya Git
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card-imgcontainer">
+                <img src="../pictures-icons/pictures/certificate.png" alt="certificate-example">     
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-head">
+                <h2>Yetkinlik</h2>
+                <a href="" class="cards-link">Yetkinliğe Git
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card-imgcontainer">
+                <img src="../pictures-icons/pictures/Consistency.png" alt="Consistency-example">     
+            </div>
+        </div>
+
+        <div class="card full-width">
+            <div class="card-head">
+                <h2>Öğrenme Patikası</h2>
+                <a href="" class="cards-link">Öğrenme Patikasına Git
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i> 
+                </a>
+            </div>
+            <div class="card-imgcontainer">
+                <img src="../pictures-icons/pictures/learninpath.png" alt="learninpath-example">     
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script
+    type="text/javascript"
+    src="MDB5-STANDARD-UI-KIT-Free-8.2.0/js/mdb.umd.min.js"
+    ></script>
+
+</body>
+</html> 
