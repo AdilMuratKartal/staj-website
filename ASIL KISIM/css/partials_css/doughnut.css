@@ -1,0 +1,64 @@
+/* Ana Container */
+.card-doughnut-container {
+    position: relative;
+    width: 60%;
+    max-width: 300px;
+    margin: auto;
+}
+
+/* Chart Label Container (Grafikten Daha Büyük Yapıldı) */
+.chart-labels{
+    position: absolute;
+    z-index: 1;
+    width: 85%;/* Canvas'tan büyük hale getirildi */
+    left: 8.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: clamp(0.8rem, 1vw, 1.6rem);
+    pointer-events: none; /* Grafik etkileşimini engelle */
+}
+
+
+.chart-labels.top{
+    top: 20%;
+}
+
+.chart-labels.bottom{
+    bottom: 20%;
+}
+
+.chart-labels p{
+    font-weight: 600; 
+}
+
+canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+
+@media screen and (max-width: 601px)  {
+    .chart-labels.top{
+        bottom: 23vw;
+        font-size: 0.7rem;
+    }
+    
+    .chart-labels.bottom{
+        bottom: 9%;
+        font-size: 0.7rem;
+   }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1280px) {
+
+    .chart-labels.top{
+        bottom: 10vw;
+        font-size: 0.7rem;
+    }
+    
+    .chart-labels.bottom{
+        bottom: 15%;
+        font-size: 0.7rem;
+   }
+
+}

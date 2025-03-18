@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet"
+            href=
+    "https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+    <link rel="stylesheet" href="./navbar.css">
+
+</head>
+<body>
+
+      <header>
+        <nav class="nav">
+        
+            <div class="container-fluid"> 
+                
+                <div class="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                  </div>
+                  
+                  <!-- LEFT-SİDE -->
+                  <div class="nav__link hide">
+                    <a href="/" class="logo">logo</a>
+                  <!-- LEFT-LİNKS -->
+                   <div class="left-links">
+                    <a href="#">Ana Sayfa</a>
+                    <a href="#">Kurslarım</a>
+                    <a href="#">Notlarım</a>
+                    <a href="#">Takvim</a>
+                    <a href="#">Sertifika ve Rozet</a>
+                    <a href="#">Yetkinlik</a>
+                    <a href="#">Öğrenme Patikası</a>
+                   </div>
+                  <!-- LEFT-LİNKS -->
+                   </div>
+                  <!-- LEFT-SİDE -->
+        
+                  <!-- SEARCHBAR -->
+                  <div class="search-container pt-1">
+                    <button class="search-toggle">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <input type="text" class="search-input" placeholder="Ara...">
+                  </div>
+                  <!-- SEARCHBAR -->
+                        
+                <!-- RIGHT ITEMS -->
+                <div class="d-flex align-items-center justify-content-center gap-4">
+                    <!-- Dark-Light toggle -->
+                    <button id="theme-switch">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+                    </button>
+                    <!-- Dark-Light toggle -->
+
+                    <!-- Notification -->
+                    <div class="notification">
+                        <span class="icon">
+                            <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                            <svg height="28px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="25px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M381.7,225.9c0-97.6-52.5-130.8-101.6-138.2c0-0.5,0.1-1,0.1-1.6c0-12.3-10.9-22.1-24.2-22.1c-13.3,0-23.8,9.8-23.8,22.1   c0,0.6,0,1.1,0.1,1.6c-49.2,7.5-102,40.8-102,138.4c0,113.8-28.3,126-66.3,158h384C410.2,352,381.7,339.7,381.7,225.9z"/>
+                                <path d="M256.2,448c26.8,0,48.8-19.9,51.7-43H204.5C207.3,428.1,229.4,448,256.2,448z"/>
+                                </g>
+                            </svg>
+
+                        </span>
+                        <span id="notification-badge" class="badge">1</span>
+                    </div>
+                    <!-- Notification -->
+
+                    <!-- Language -->
+                    <a class="nav-link dropdown-toggle" >
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55.2 38.4" style="enable-background:new 0 0 55.2 38.4" xml:space="preserve">
+                            <style type="text/css">.st0{fill:#FEFEFE;} .st1{fill:#C8102E;} .st2{fill:#012169;}</style>
+                            <g>
+                                <path class="st0" d="M2.87,38.4h49.46c1.59-0.09,2.87-1.42,2.87-3.03V3.03c0-1.66-1.35-3.02-3.01-3.03H3.01 C1.35,0.01,0,1.37,0,3.03v32.33C0,36.98,1.28,38.31,2.87,38.4L2.87,38.4z"/>
+                                <polygon class="st1" points="23.74,23.03 23.74,38.4 31.42,38.4 31.42,23.03 55.2,23.03 55.2,15.35 31.42,15.35 31.42,0 23.74,0 23.74,15.35 0,15.35 0,23.03 23.74,23.03"/>
+                                <path class="st2" d="M33.98,12.43V0h18.23c1.26,0.02,2.34,0.81,2.78,1.92L33.98,12.43L33.98,12.43z"/>
+                                <path class="st2" d="M33.98,25.97V38.4h18.35c1.21-0.07,2.23-0.85,2.66-1.92L33.98,25.97L33.98,25.97z"/>
+                                <path class="st2" d="M21.18,25.97V38.4H2.87c-1.21-0.07-2.24-0.85-2.66-1.94L21.18,25.97L21.18,25.97z"/>
+                                <path class="st2" d="M21.18,12.43V0H2.99C1.73,0.02,0.64,0.82,0.21,1.94L21.18,12.43L21.18,12.43z"/>
+                                <polygon class="st2" points="0,12.8 7.65,12.8 0,8.97 0,12.8"/>
+                                <polygon class="st2" points="55.2,12.8 47.51,12.8 55.2,8.95 55.2,12.8"/>
+                                <polygon class="st2" points="55.2,25.6 47.51,25.6 55.2,29.45 55.2,25.6"/>
+                                <polygon class="st2" points="0,25.6 7.65,25.6 0,29.43 0,25.6"/>
+                                <polygon class="st1" points="55.2,3.25 36.15,12.8 40.41,12.8 55.2,5.4 55.2,3.25"/>
+                                <polygon class="st1" points="19.01,25.6 14.75,25.6 0,32.98 0,35.13 19.05,25.6 19.01,25.6"/>
+                                <polygon class="st1" points="10.52,12.81 14.78,12.81 0,5.41 0,7.55 10.52,12.81"/>
+                                <polygon class="st1" points="44.63,25.59 40.37,25.59 55.2,33.02 55.2,30.88 44.63,25.59"/>
+                            </g>
+                        </svg>
+                    </a>
+                    <!-- Language -->
+
+                    <!-- Avatar -->
+                    <img src="profile.jpg" alt="Profile" class="profile-pic">
+                    <!-- Avatar -->
+                </div>
+                <!-- RIGHT ITEMS -->
+            </div>
+
+          
+
+
+        </nav>
+      </header>
+
+      <script src="./navbar.js"></script>
+ 
+</body>
+</html>
